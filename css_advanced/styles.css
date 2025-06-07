@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../Fonts/source-sans-pro/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+    font-family: "Source Sans Pro-bold";
+    src: url("../Fonts/source-sans-pro/SourceSansPro-Bold.otf");
+}
+
+@font-face {
+    font-family: "Source Sans Pro-semibold";
+    src: url("../Fonts/source-sans-pro/SourceSansPro-Semibold.otf");
+}
+
+@font-face {
+    font-family: "Source Sans Pro-extra-light";
+    src: url("../Fonts/source-sans-pro/SourceSansPro-ExtraLight.otf");
+}
+
+:root {
+    --font-extra-light: "Source Sans Pro-extra-light";
+    --font-regular: "Source Sans Pro";
+    --font-semibold: "Source Sans Pro-semibold";
+    --font-bold: "Source Sans Pro-bold";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 1440px;
+    margin: auto;
+    height: 100%;
+    font-family: var(--font-regular);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30px;
+    width: 1100px;
+}
+
+header div {
+    padding-bottom: 10px;
+    display: flex;
+    gap: 40px;
+}
+
+header div a {
+    font-size: 12px;
+    font-family: var(--font-bold);
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.first_page {
+    background-image: url(../Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1090px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first_page .title {
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first_page .title h1 {
+    font-size: 120px;
+    font-family: var(--font-bold);
+    color: white;
+}
+
+.first_page .title p {
+    color: white;
+    font-family: var(--font-bold);
+    word-spacing: 50px;
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+
+.first_page .title button {
+    font-family: var(--font-extra-light);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(194, 113, 255);
+    padding: 13px 20px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 160px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2),
+    -4px -4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.description .purple-learn-word {
+    font-family: var(--font-regular);
+    color: rgb(194, 113, 255);
+    font-weight: 600;
+}
+
+.description h2 {
+    font-size: 32px;
+    font-family: var(--font-extra-light);
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 100;
+}
+
+.description .pros-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+}
+
+.pros-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.pros-container div h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.pros-container div p {
+    width: 150px;
+    font-family: var(--font-extra-light);
+    font-weight: 100;
+    font-style: italic;
+}
+
+.pros-container .first-line {
+    display: block;
+    text-align: center;
+}
+
+.pros-container .second-line {
+    display: block;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.second-page {
+    height: 390px;
+    background-color: rgb(194, 113, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-page > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 940px;
+    color: white;
+}
+
+.second-page blockquote {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.second-page .name {
+    font-family: var(--font-bold);
+    font-size: 22px;
+    margin-top: 27px;
+    margin-bottom: 8px;
+}
+
+.second-page .weather {
+    font-size: 20px;
+    font-style: italic;
+    font-family: var(--font-extra-light);
+}
