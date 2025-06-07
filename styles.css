@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Source Sans Pro";
-    src: url("Fonts/source-sans-pro/SourceSansPro-Regular.otf");
+    src: url("./Fonts/source-sans-pro/SourceSansPro-Regular.otf");
 }
 
 @font-face {
     font-family: "Source Sans Pro-bold";
-    src: url("Fonts/source-sans-pro/SourceSansPro-Bold.otf");
+    src: url("./Fonts/source-sans-pro/SourceSansPro-Bold.otf");
 }
 
 @font-face {
     font-family: "Source Sans Pro-semibold";
-    src: url("Fonts/source-sans-pro/SourceSansPro-Semibold.otf");
+    src: url("./Fonts/source-sans-pro/SourceSansPro-Semibold.otf");
 }
 
 @font-face {
     font-family: "Source Sans Pro-extra-light";
-    src: url("Fonts/source-sans-pro/SourceSansPro-ExtraLight.otf");
+    src: url("./Fonts/source-sans-pro/SourceSansPro-ExtraLight.otf");
 }
 
 :root {
